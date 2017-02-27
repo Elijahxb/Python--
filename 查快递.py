@@ -33,7 +33,3 @@ type = gettype(number)#获取快递类型
 Address = 'http://www.kuaidi100.com/query?type=%s&postid=%d&id=1&valicode=&temp=0.33020057185034335' %(type,number)
 for i in getprocess(Address):
     print i['ftime'] + i['context']
-
-	
-	
-#测试
